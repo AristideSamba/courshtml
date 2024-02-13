@@ -1,0 +1,30 @@
+@import url(./resset.css);
+
+/*theme*/
+
+header>h1 {
+    background-color: rgba(0, 206, 201, 1.0);
+    color: blanchedalmond;
+    font-weight: normal;
+    line-height: 6.5rem;
+    /* 65px*/
+    text-align: center;
+    font-size: 4.5rem;
+    /* 45 px*/
+
+}
+
+section {
+    max-width: 90rem;
+    margin: 5rem auto;
+    border: solid .1rem #333;
+    padding: 1rem;
+}
+
+section img {
+    width: 100%;
+}
+
+footer *{
+    text-align: center;
+}

@@ -1,27 +1,44 @@
 /* resset css*/
 /* Element + attribue + valeure conduite à tenir*/
 html {
-    font-size: 62.5%; /*10px * 62.5 = 10*/
+    font-size: 62.5%;
+    /*10px * 62.5 = 10*/
 
 }
 
 body {
-    font: 1.6rem sans-serif; /*prpriété générale pour mettre en forme la police de caractere*/
+    font: 1.6rem sans-serif;
+    /*prpriété générale pour mettre en forme la police de caractere*/
     letter-spacing: .1rem;
     line-height: 1.6;
     margin: 0;
 }
 
-h1,h2,h3,h4,h5,h6,p,ul,ol {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-a{
+a {
     color: rgb(171, 18, 18);
     text-decoration: none;
 }
+
 * {
     box-sizing: border-box;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    object-fit: cover;
 }
