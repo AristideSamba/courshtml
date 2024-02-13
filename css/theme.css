@@ -1,28 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url(./resset.css);
+
 
 /*theme*/
 
+:root{/*selector root = racine avec les variables */
+    --bgcolor: rgba(223, 230, 233,1.0);
+    --color-text-title: rgb(18, 19, 17);
+    --color-border: #2f2f30; 
+    --borber-radius: .6rem;
+    --bgsection: #fafcfc;
+    --subtitle: uppercase;
+    --bgmain:rgba(116, 185, 255,1.0);
+}
+
 header>h1 {
-    background-color: rgba(0, 206, 201, 1.0);
-    color: blanchedalmond;
+    background-color: var(--bgcolor);
+    color: var(--color-text-title);
     font-weight: normal;
     line-height: 6.5rem;
     /* 65px*/
     text-align: center;
     font-size: 4.5rem;
     /* 45 px*/
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 
 }
+
 
 section {
     max-width: 90rem;
     margin: 5rem auto;
-    border: solid .1rem #333;
+    border: solid .1rem var(--color-border);
+    border-radius: var(--borber-radius);
     padding: 1rem;
+    background-color: var(--bgsection);
 }
 
+section h2{
+    text-transform: var(--subtitle);
+    font-weight: 400;
+}
 section img {
     width: 100%;
+    border-radius: var(--borber-radius);
 }
 
 footer *{
