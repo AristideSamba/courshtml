@@ -68,6 +68,19 @@ section img {
     background-color: red;
     color: var(--bgsection);
 }
+
+.title-level-two-default{
+    background-color: #111111;
+    color: white;
+    line-height: 5.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.title-option{
+    background-color: blue;
+    color: white;
+}
 footer *{
     text-align: center;
 }
