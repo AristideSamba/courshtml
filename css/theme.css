@@ -80,6 +80,7 @@ section img {
 .title-option{
     background-color: blue;
     color: white;
+    margin-top: .2rem;
 }
 footer *{
     text-align: center;
