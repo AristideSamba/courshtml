@@ -8,11 +8,12 @@
 :root{/*selector root = racine avec les variables */
     --bgcolor: rgba(223, 230, 233,1.0);
     --color-text-title: rgb(18, 19, 17);
-    --color-border: #2f2f30; 
+    --color-border: #c8c8cc; 
     --borber-radius: .6rem;
     --bgsection: #fafcfc;
     --subtitle: uppercase;
     --bgmain:rgba(116, 185, 255,1.0);
+    --btn-default-color: #c8c8cc;
 }
 
 header>h1 {
@@ -49,6 +50,24 @@ section img {
     border-radius: var(--borber-radius);
 }
 
+.btn-defaut{
+    display: inline-block;
+    width: max-content;
+    background-color: var(--btn-default-color);
+    line-height: 2.5rem;
+    padding: .4rem .4rem;
+    border-radius: var(--borber-radius);
+    color: var(--bgsection);
+}
+.btn-option-success{
+    background-color: #26fa6d;
+    color: var(--bgsection);
+}
+
+.btn-option-warning{
+    background-color: red;
+    color: var(--bgsection);
+}
 footer *{
     text-align: center;
 }
