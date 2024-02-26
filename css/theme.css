@@ -62,11 +62,13 @@ section img {
 .btn-option-success{
     background-color: #26fa6d;
     color: var(--bgsection);
+    transition: all .3s ease-in-out;
 }
 
 .btn-option-warning{
     background-color: red;
     color: var(--bgsection);
+    transition: all .3s ease-in-out;
 }
 
 .title-level-two-default{
@@ -84,4 +86,8 @@ section img {
 }
 footer *{
     text-align: center;
+}
+
+.btn-option-success:hover, .btn-option-warning:hover{
+    filter: brightness(.8);
 }
